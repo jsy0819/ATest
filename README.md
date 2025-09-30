@@ -1,5 +1,8 @@
+```mermaid
 erDiagram
-    %% Entities (테이블 정의)
+    %% AI 회의록 시스템 ERD (알림 테이블 제외)
+    
+    %% Entities (테이블 정의 및 상세 정보)
 
     USER {
         BIGINT id PK "사용자 고유 식별자"
