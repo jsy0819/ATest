@@ -1,14 +1,5 @@
 ```mermaid
 erDiagram
-%% Entities (테이블 정의)
-USER {
-    BIGINT id PK "사용자 고유 식별자"
-    VARCHAR email_sns_id "이메일 / 소셜 ID (Unique)"
-    ...
-}
-...
-
-erDiagram
     %% Entities (테이블 정의)
 
     USER {
